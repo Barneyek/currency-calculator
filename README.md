@@ -1,7 +1,20 @@
-# Vue 3 + Vite
+#A simple currency exchange rate calculator!
+This is a simple exchange-rate-calculator which built with Vue.js. Based on current market exchange rates most popular currencies, app will calculate the currency's corresponding value of the entered amount of money.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Installation
+The template uses Vue 3 & Vite & Tailwind
 
-## Recommended IDE Setup
+Commands to run:
+```
+npm install
+npm run dev
+```
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+##How to use?
+Just enter the amount of which you want to know the exchange rate!
+
+##API
+Currency exchange rates are fetched from the following API:- [freecurrencyapi](htttps://freecurrencyapi.net)
+
+##Author
+Damian Osiecki
